@@ -16,7 +16,7 @@ namespace EredmenyekWPF
 
         public override string ToString()
         {
-            return $" {Nev} ";
+            return Nev;
         }
     }
 

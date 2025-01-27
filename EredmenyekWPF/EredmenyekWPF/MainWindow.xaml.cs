@@ -24,7 +24,13 @@ namespace EredmenyekWPF
             lbxNevek.Items.Clear();
             LoadFromFile("Eredmenyek.txt");
             lbxNevek.ItemsSource = eredmenyek;
+            EremInit();
         }
+
+        /// <summary>
+        /// Az adatok beolvasása a megadott fájlból.
+        /// </summary>
+        /// <param name="filePath"></param>
         static void LoadFromFile(string filePath)
         {
 
@@ -57,14 +63,87 @@ namespace EredmenyekWPF
                 MessageBox.Show("Hiba az adatok beolvasásakor!");
                 throw;
             }
-            
+
 
         }
-        
 
+        /// <summary>
+        /// A versenyzok neveit egyedinek tételezzük fel. A versenyző nevét kiválasztva a jobb oldali textboxokban betöltődnek a megfelelő adatok.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void lbxNevek_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            if (lbxNevek.SelectedItem != null)
+            {
+                int index = 0;
+                while (index < eredmenyek.Count && eredmenyek[index].Nev != lbxNevek.SelectedItem.ToString())
+                {
+                    index++;
+                }
+                tbxSorszam.Text = eredmenyek[index].Sorszam.ToString();
+                tbxNev.Text = eredmenyek[index].Nev;
+                tbx1Feladat.Text = eredmenyek[index].Pontszam1.ToString();
+                tbx2Feladat.Text = eredmenyek[index].Pontszam2.ToString();
+                tbx3Feladat.Text = eredmenyek[index].Pontszam3.ToString();
+                int elsoPontArany = PontszamHely(1, 1);
 
+                if (elsoPontArany == eredmenyek[index].Pontszam1)
+                {
+                    imgMedal1.Source = new BitmapImage(new Uri("Images/gold.jpg", UriKind.Relative));
+                }
+                else if (elsoPontArany == eredmenyek[index].Pontszam2)
+                {
+                    imgMedal1.Source = new BitmapImage(new Uri("Images/silver.jpg", UriKind.Relative));
+                }
+                else if (elsoPontArany == eredmenyek[index].Pontszam3)
+                {
+                    imgMedal1.Source = new BitmapImage(new Uri("Images/bronze.jpg", UriKind.Relative));
+                }
+                else
+                {
+                    imgMedal1.Source = new BitmapImage(new Uri("Images/empty.jpg", UriKind.Relative));
+
+                }
+
+
+            }
+        }
+
+        private static int PontszamHely(int helyezes , int feladat)
+        {
+            int eredmeny = -1;
+            switch (feladat)
+            {
+                case 1:
+                    int max = eredmenyek[0].Pontszam1;
+                    foreach (Eredmeny v in eredmenyek)
+                    {
+                        if (v.Pontszam1 > max)
+                        {
+                            max = v.Pontszam1;
+                        }
+                    }
+                    eredmeny = max;
+                    break;
+                case 2:
+
+                  
+                    break;
+                case 3:
+                   
+                    break;
+              
+            }
+            return eredmeny;
+        }
+
+        private void EremInit()
+        {
+            
+            imgMedal1.Source=new BitmapImage(new Uri("Images/empty.jpg", UriKind.Relative));
+            imgMedal2.Source = new BitmapImage(new Uri("Images/empty.jpg", UriKind.Relative));
+            imgMedal3.Source = new BitmapImage(new Uri("Images/empty.jpg", UriKind.Relative));
         }
     }
 }

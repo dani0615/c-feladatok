@@ -19,17 +19,30 @@
 
         <StackPanel Grid.Column="1" >
             <Label Content="Sorszám:"/>
-            <TextBox x:Name="tbxSorszam"   />
+            
+            <TextBox x:Name="tbxSorszam" IsReadOnly="True" />
+            
             <Label Content="Név:"/>
-            <TextBox Name="tbxNev"  />
-            <Label Content="Pontszám:"/>
-            <TextBox Name="tbxPontszam"  />
+            
+            <TextBox Name="tbxNev" IsReadOnly="True" />
+            
             <Label Content="1.feladat:"/>
-            <TextBox Name="tbx1Feladat"  />
+            
+            <TextBox Name="tbx1Feladat" IsReadOnly="True"  />
+            
+            <Image Name="imgMedal1" Width="30" Height="30" HorizontalAlignment="Left" Margin="5"/>
+            
             <Label Content="2.feladat:"/>
-            <TextBox Name="tbx2Feladat"  />
+            
+            <TextBox Name="tbx2Feladat" IsReadOnly="True" />
+            
+            <Image Name="imgMedal2" Width="30" Height="30" HorizontalAlignment="Left" Margin="5"/>
+            
             <Label Content="3.feladat:"/>
-            <TextBox Name="tbx3Feladat"   />
+            
+            <TextBox Name="tbx3Feladat" IsReadOnly="True"  />
+            
+            <Image Name="imgMedal3" Width="30" Height="30" HorizontalAlignment="Left" Margin="5"/>
 
 
         </StackPanel>
