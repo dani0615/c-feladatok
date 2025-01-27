@@ -1,0 +1,17 @@
+C:\Users\haluskad\Documents\Asztali p\1125\Allathotel\KisallatHotel\KisallatHotel\bin\Debug\net5.0\KisallatHotel.exe
+C:\Users\haluskad\Documents\Asztali p\1125\Allathotel\KisallatHotel\KisallatHotel\bin\Debug\net5.0\kiasallatok.txt
+C:\Users\haluskad\Documents\Asztali p\1125\Allathotel\KisallatHotel\KisallatHotel\bin\Debug\net5.0\KisallatHotel.deps.json
+C:\Users\haluskad\Documents\Asztali p\1125\Allathotel\KisallatHotel\KisallatHotel\bin\Debug\net5.0\KisallatHotel.runtimeconfig.json
+C:\Users\haluskad\Documents\Asztali p\1125\Allathotel\KisallatHotel\KisallatHotel\bin\Debug\net5.0\KisallatHotel.runtimeconfig.dev.json
+C:\Users\haluskad\Documents\Asztali p\1125\Allathotel\KisallatHotel\KisallatHotel\bin\Debug\net5.0\KisallatHotel.dll
+C:\Users\haluskad\Documents\Asztali p\1125\Allathotel\KisallatHotel\KisallatHotel\bin\Debug\net5.0\ref\KisallatHotel.dll
+C:\Users\haluskad\Documents\Asztali p\1125\Allathotel\KisallatHotel\KisallatHotel\bin\Debug\net5.0\KisallatHotel.pdb
+C:\Users\haluskad\Documents\Asztali p\1125\Allathotel\KisallatHotel\KisallatHotel\obj\Debug\net5.0\KisallatHotel.csproj.AssemblyReference.cache
+C:\Users\haluskad\Documents\Asztali p\1125\Allathotel\KisallatHotel\KisallatHotel\obj\Debug\net5.0\KisallatHotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haluskad\Documents\Asztali p\1125\Allathotel\KisallatHotel\KisallatHotel\obj\Debug\net5.0\KisallatHotel.AssemblyInfoInputs.cache
+C:\Users\haluskad\Documents\Asztali p\1125\Allathotel\KisallatHotel\KisallatHotel\obj\Debug\net5.0\KisallatHotel.AssemblyInfo.cs
+C:\Users\haluskad\Documents\Asztali p\1125\Allathotel\KisallatHotel\KisallatHotel\obj\Debug\net5.0\KisallatHotel.csproj.CoreCompileInputs.cache
+C:\Users\haluskad\Documents\Asztali p\1125\Allathotel\KisallatHotel\KisallatHotel\obj\Debug\net5.0\KisallatHotel.dll
+C:\Users\haluskad\Documents\Asztali p\1125\Allathotel\KisallatHotel\KisallatHotel\obj\Debug\net5.0\ref\KisallatHotel.dll
+C:\Users\haluskad\Documents\Asztali p\1125\Allathotel\KisallatHotel\KisallatHotel\obj\Debug\net5.0\KisallatHotel.pdb
+C:\Users\haluskad\Documents\Asztali p\1125\Allathotel\KisallatHotel\KisallatHotel\obj\Debug\net5.0\KisallatHotel.genruntimeconfig.cache
