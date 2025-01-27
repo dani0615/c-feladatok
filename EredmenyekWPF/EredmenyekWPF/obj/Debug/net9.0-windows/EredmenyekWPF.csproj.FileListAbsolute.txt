@@ -20,3 +20,7 @@ C:\Users\haluskad\Documents\Asztali p\c# feladatok\EredmenyekWPF\EredmenyekWPF\o
 C:\Users\haluskad\Documents\Asztali p\c# feladatok\EredmenyekWPF\EredmenyekWPF\obj\Debug\net9.0-windows\EredmenyekWPF.genruntimeconfig.cache
 C:\Users\haluskad\Documents\Asztali p\c# feladatok\EredmenyekWPF\EredmenyekWPF\obj\Debug\net9.0-windows\ref\EredmenyekWPF.dll
 C:\Users\haluskad\Documents\Asztali p\c# feladatok\EredmenyekWPF\EredmenyekWPF\bin\Debug\net9.0-windows\Eredmenyek.txt
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\EredmenyekWPF\EredmenyekWPF\bin\Debug\net9.0-windows\Images\bronze.jpg
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\EredmenyekWPF\EredmenyekWPF\bin\Debug\net9.0-windows\Images\empty.jpg
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\EredmenyekWPF\EredmenyekWPF\bin\Debug\net9.0-windows\Images\gold.jpg
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\EredmenyekWPF\EredmenyekWPF\bin\Debug\net9.0-windows\Images\silver.jpg

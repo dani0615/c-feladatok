@@ -141,9 +141,9 @@ namespace EredmenyekWPF
         private void EremInit()
         {
             
-            imgMedal1.Source=new BitmapImage(new Uri("Images/empty.jpg", UriKind.Relative));
-            imgMedal2.Source = new BitmapImage(new Uri("Images/empty.jpg", UriKind.Relative));
-            imgMedal3.Source = new BitmapImage(new Uri("Images/empty.jpg", UriKind.Relative));
+            imgMedal1.Source=new BitmapImage(new Uri("Images/empty.jpg", UriKind.RelativeOrAbsolute));
+            imgMedal2.Source = new BitmapImage(new Uri("Images/empty.jpg", UriKind.RelativeOrAbsolute));
+            imgMedal3.Source = new BitmapImage(new Uri("Images/empty.jpg", UriKind.RelativeOrAbsolute));
         }
     }
 }
