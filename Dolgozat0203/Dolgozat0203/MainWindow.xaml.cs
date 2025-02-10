@@ -19,12 +19,16 @@ namespace Dolgozat0203
     {
        static List<Meres> meresek = new List<Meres>();
        List<string> Egyedi = new List<string>();
+       HashSet<string> Egyedidatum = new HashSet<string>();
         public MainWindow()
         {
             InitializeComponent();
             LoadFromFile("meresek.csv");
+            FeltoltCombo();
+            cbxDatumok.ItemsSource = Egyedidatum;
+           
             lbxDatum.Items.Clear();
-            EgyediDatumok();
+           // EgyediDatumok();
         }
         private void LoadFromFile(string fileName)
         {
@@ -35,7 +39,7 @@ namespace Dolgozat0203
             }
           
         }
-
+        /*
         private void EgyediDatumok()
         { 
 
@@ -47,6 +51,15 @@ namespace Dolgozat0203
                     Egyedi.Add(datumok);
                     cbxDatumok.Items.Add(datumok);
                 }
+            }
+        } */
+
+        //HasheSettel való megoldás
+        private void FeltoltCombo()
+        {
+            foreach (Meres meres in meresek)
+            {
+                Egyedidatum.Add(meres.Datum.ToShortDateString());
             }
         }
         private void cbxDatumok_SelectionChanged(object sender, SelectionChangedEventArgs e)

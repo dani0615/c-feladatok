@@ -13,7 +13,7 @@
         </Grid.ColumnDefinitions>
         <ComboBox Name="cbxDatumok" HorizontalAlignment="Left"  Margin="5,5,0,0" VerticalAlignment="Top" Width="250" Height="30" SelectionChanged="cbxDatumok_SelectionChanged"/>
         <ListBox Grid.Column="1" Name="lbxDatum" SelectionChanged="lbxDatum_SelectionChanged" HorizontalAlignment="Center" Margin="0,0,0,4" Width="233"  />
-
+        <Image x:Name="imgSmile" Margin="5,100,0,0" Height="50" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top" />
 
     </Grid>
 </Window>
