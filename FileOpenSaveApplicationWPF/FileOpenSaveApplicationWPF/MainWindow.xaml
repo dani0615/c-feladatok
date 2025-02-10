@@ -5,8 +5,45 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FileOpenSaveApplicationWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Autók" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Menu Grid.ColumnSpan="2">
+
+            <MenuItem Header="Beolvasás" Click="Beolvasas_Click" />
+            <MenuItem Header="_Open"/>
+            <Separator/>
+            <MenuItem Header="_Save"/>
+            <MenuItem Header="_Exit" />
+
+        </Menu>
+        <ListBox Name="lbAutok" Grid.Row="1" SelectionChanged="lbAutok_SelectionChanged" />
+        
+        <StackPanel Grid.Column="1" Grid.Row="1" >
+            <Label Content="Azonosító:" />
+            <TextBlock Name="tbxAzonosito" Margin="5" />
+            <Label Content="Gyártmány:" />
+            <TextBox Name="tbxGyartmany" Margin="5" />
+            <Label Content="Típus:" />
+            <TextBox Name="tbxTipus" Margin="5" />
+            <Label Content="Szín"/>
+            <TextBox Name="tbxSzin" Margin="5" />
+            <Label Content="Évjárat:" />
+            <TextBox Name="tbxEvjarat" Margin="5" />
+            <Label Content="Műszaki:" />
+            <TextBox Name="tbxMuszaki" Margin="5" />
+            <CheckBox Name="ckxAktiv" Content="Aktiv"/>
+
+        </StackPanel>
+        
 
     </Grid>
 </Window>
