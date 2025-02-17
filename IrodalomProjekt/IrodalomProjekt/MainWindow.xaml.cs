@@ -105,12 +105,20 @@ namespace IrodalomProjekt
 
         private void Elozo_Click(object sender, RoutedEventArgs e)
         {
-
+            if (aktKerdesIndex > 0)
+            {
+                aktKerdesIndex--;
+                Mutatkerdes(aktKerdesIndex);
+            }
+            else
+            {
+                MessageBox.Show("Nincs előző kérdés!", "Figyelmeztetés", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
         }
        
         private void Kovetkezo_click(object sender, RoutedEventArgs e)
         {
-
+           
         }
 
         private void Kilepes_click(object sender, RoutedEventArgs e)
