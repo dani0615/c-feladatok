@@ -118,12 +118,24 @@ namespace IrodalomProjekt
        
         private void Kovetkezo_click(object sender, RoutedEventArgs e)
         {
-           
+            if (aktKerdesIndex < kerdesek.Count - 1)
+            {
+                aktKerdesIndex++;
+                Mutatkerdes(aktKerdesIndex);
+            }
+            else
+            {
+                MessageBox.Show("Nincs több kérdés!", "Figyelmeztetés", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
         }
 
         private void Kilepes_click(object sender, RoutedEventArgs e)
         {
-
+            MessageBoxResult result = MessageBox.Show("Kiszeretnél lépni a programból?", "Megerősítés", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (result == MessageBoxResult.Yes)
+            {
+                Application.Current.Shutdown();
+            }
         }
 
         

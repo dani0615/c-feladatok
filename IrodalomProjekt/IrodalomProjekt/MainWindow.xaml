@@ -24,11 +24,11 @@
             <TextBlock Text="Eredmény" Background="LightYellow"  Name="tbkEredmeny"/>
         </DockPanel>
         <TextBlock Grid.Column="1" Grid.Row="0" Text="Szöveg" Background="LightGray" Name="tbkKerdesSzovege" />
-        <StackPanel Grid.Column="1" Grid.Row="1"  >
+        <StackPanel Grid.Column="1" Grid.Row="1" Margin="30"  >
             <RadioButton GroupName="Valaszok" Name="ValaszA" Margin="3" Content="A)"/>
             <RadioButton GroupName="Valaszok" Name="ValaszB" Margin="3" Content="B)"/>
             <RadioButton GroupName="Valaszok" Name="ValaszC" Margin="3" Content="C)"/>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="50" >
                 <Button Content="Előző" Margin="5" Padding="5" Width="100" Click="Elozo_Click"/>
                 <Button Content="Válasz Mentése" Margin="5" Padding="5" Width="100" Click="Mentes_Click"/>
                 <Button Content="Következő" Margin="5" Padding="5" Width="100" Click="Kovetkezo_click"/>
