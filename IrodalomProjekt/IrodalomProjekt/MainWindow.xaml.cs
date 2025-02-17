@@ -83,22 +83,31 @@ namespace IrodalomProjekt
                 
             }
         }
-        private void Mutatkerdes(int aktKerdesIndex) { }
-        private void Kiertekeles_click(object sender, RoutedEventArgs e)
+        private void Mutatkerdes(int aktKerdesIndex) 
         {
+            if (kerdesek.Count == 0)
+                return;
+
+            Kerdes aktualisKerdes = kerdesek[aktKerdesIndex];
+         
+            tbkKerdesSzovege.Text = aktualisKerdes.KerdesSzovege;
+            ValaszA.Content = aktualisKerdes.ValaszA;
+            ValaszB.Content = aktualisKerdes.ValaszB;
+            ValaszC.Content = aktualisKerdes.ValaszC;
+
+            
+            ValaszA.IsChecked = false;
+            ValaszB.IsChecked = false;
+            ValaszC.IsChecked = false;
 
         }
+       
 
         private void Elozo_Click(object sender, RoutedEventArgs e)
         {
 
         }
-
-        private void Mentes_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
+       
         private void Kovetkezo_click(object sender, RoutedEventArgs e)
         {
 
@@ -108,5 +117,17 @@ namespace IrodalomProjekt
         {
 
         }
+
+        
+       private void Mentes_Click(object sender, RoutedEventArgs e)
+       {
+
+       }
+               
+       private void Kiertekeles_click(object sender, RoutedEventArgs e)
+       {
+
+       }
+      
     }
 }
