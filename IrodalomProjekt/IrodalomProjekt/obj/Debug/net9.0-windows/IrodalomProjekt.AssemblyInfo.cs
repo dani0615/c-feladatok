@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IrodalomProjekt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d3082175c9dc633ecc5c46e5e4efb3d99f45844")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+460fd022733a57b7367293194c3d48888812e511")]
 [assembly: System.Reflection.AssemblyProductAttribute("IrodalomProjekt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IrodalomProjekt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
