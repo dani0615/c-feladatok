@@ -141,13 +141,14 @@ namespace IrodalomProjekt
         
        private void Mentes_Click(object sender, RoutedEventArgs e)
        {
-
-       }
+            MessageBox.Show("// Nem elérhető funkció! //", "Figyelmeztetés", MessageBoxButton.OK, MessageBoxImage.Warning);
+        }
                
        private void Kiertekeles_click(object sender, RoutedEventArgs e)
        {
+            MessageBox.Show("// Nem elérhető funkció! //", "Figyelmeztetés", MessageBoxButton.OK, MessageBoxImage.Warning);
 
-       }
-      
+        }
+
     }
 }
