@@ -1,0 +1,39 @@
+﻿<Window x:Class="IrodalomProjekt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IrodalomProjekt"
+        mc:Ignorable="d"
+        Title="Irodalom Projekt" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="39*"/>
+            <ColumnDefinition Width="121*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="79*"/>
+            <RowDefinition Height="355*"/>
+        </Grid.RowDefinitions>
+
+
+        <DockPanel Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Background="LightGray">
+            <Button DockPanel.Dock="Top" Margin="5"  Content="Betöltés"  VerticalAlignment="Top" Click="Betoltes1_Click"/>
+            <Button DockPanel.Dock="Bottom" Content="Kilépés"  VerticalAlignment="Top"/>
+            <Button DockPanel.Dock="Top" Content="Kiértékelés" Margin="5" Click="Kiertekeles_click" />
+            <TextBlock Text="Eredmény" Background="LightYellow"  Name="tbkEredmeny"/>
+        </DockPanel>
+        <TextBlock Grid.Column="1" Grid.Row="0" Text="Szöveg" Background="LightGray" Name="tbkKerdesSzovege" />
+        <StackPanel Grid.Column="1" Grid.Row="1"  >
+            <RadioButton GroupName="Valaszok" Name="ValaszA" Margin="3" Content="A)"/>
+            <RadioButton GroupName="Valaszok" Name="ValaszB" Margin="3" Content="B)"/>
+            <RadioButton GroupName="Valaszok" Name="ValaszC" Margin="3" Content="C)"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Előző" Margin="5" Padding="5" Width="100" Click="Button_Click_1"/>
+                <Button Content="Válasz Mentése" Margin="5" Padding="5" Width="100" Click="Button_Click_2"/>
+                <Button Content="Következő" Margin="5" Padding="5" Width="100" Click="Button_Click_3"/>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Window>

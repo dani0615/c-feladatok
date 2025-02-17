@@ -1,0 +1,32 @@
+﻿Mikor született józsef attila?
+A: 1875
+B: 1905
+C: 1910
+Helyes válasz : B
+Melyik folyóirat különszámába írta a "Hazám" című versét?
+A: Szép Szó
+B: Nyugat
+C: Magyar Csillag
+Helyes válasz : A
+Melyik városban született József Attila?
+A: Budapest
+B: Szeged
+C: Szabadszállás
+Helyes válasz : C
+Melyik költői irányzat hatott rá leginkább?
+A: Szimbolizmus
+B: Avantgárd
+C: Szürrealizmus
+Helyes válasz : B
+Mit jelképez gyakran a sötétség a verseiben?
+A: Kilátástalanság
+B: Nyugalom
+C: Bölcsesség
+Helyes válasz : A
+Melyik költőtől vette át a szabadverset?
+A: Ady Endre
+B: Babits Mihály
+C: Kosztolányi Dezső
+Helyes válasz : A
+
+
