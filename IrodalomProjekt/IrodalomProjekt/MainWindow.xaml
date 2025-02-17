@@ -19,7 +19,7 @@
 
         <DockPanel Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" Background="LightGray">
             <Button DockPanel.Dock="Top" Margin="5"  Content="Betöltés"  VerticalAlignment="Top" Click="Betoltes1_Click"/>
-            <Button DockPanel.Dock="Bottom" Content="Kilépés"  VerticalAlignment="Top"/>
+            <Button DockPanel.Dock="Bottom" Content="Kilépés"  VerticalAlignment="Top" Click="Kilepes_click"/>
             <Button DockPanel.Dock="Top" Content="Kiértékelés" Margin="5" Click="Kiertekeles_click" />
             <TextBlock Text="Eredmény" Background="LightYellow"  Name="tbkEredmeny"/>
         </DockPanel>

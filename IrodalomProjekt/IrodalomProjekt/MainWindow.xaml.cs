@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.IO;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -8,29 +9,81 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using IrodalomProjekt.Models;
+using Microsoft.Win32;
 
 namespace IrodalomProjekt
 {
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    
+   
     public partial class MainWindow : Window
     {
+        private static List<Kerdes> kerdesek = new List<Kerdes>();
+        private static int aktKerdesIndex = 0;
+
         public MainWindow()
         {
             InitializeComponent();
+           
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private static void KerdesekBetoltese(string filename)
         {
-            MessageBox.Show("Hello World!");
+            kerdesek.Clear();
+            try
+            {
+                StreamReader sr = new StreamReader(filename, Encoding.UTF8);
+                while (!sr.EndOfStream)
+                {
+                    string kerdesSzovege = sr.ReadLine();
+                    string valaszA = sr.ReadLine();
+                    string valaszB = sr.ReadLine();
+                    string valaszC = sr.ReadLine();
+                    string utolsoSorLine = sr.ReadLine();
+                    if (utolsoSorLine == null)
+                        break; 
+                    string[] utolsoSor = utolsoSorLine.Split(' ');
+                    string helyesValasz = utolsoSor[2];
+                    kerdesek.Add(new Kerdes(kerdesSzovege, valaszA, valaszB, valaszC, helyesValasz));
+                }
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         private void Betoltes1_Click(object sender, RoutedEventArgs e)
         {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Text files (*.txt)|*.txt";
+            if (openFileDialog.ShowDialog() == true)
+            {
+                try
+                {
+                    KerdesekBetoltese(openFileDialog.FileName);
+                    MessageBox.Show("Sikeres betöltés!","informacio",MessageBoxButton.OK,MessageBoxImage.Information);
+                    if (kerdesek.Count > 0)
+                    {
+                        aktKerdesIndex = 0;
+                        Mutatkerdes(aktKerdesIndex);
+                    }
+                }
+                catch (Exception)
+                {
 
+                    throw;
+                }
+                
+            }
         }
-
+        private void Mutatkerdes(int aktKerdesIndex) { }
         private void Kiertekeles_click(object sender, RoutedEventArgs e)
         {
 
@@ -47,6 +100,11 @@ namespace IrodalomProjekt
         }
 
         private void Kovetkezo_click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Kilepes_click(object sender, RoutedEventArgs e)
         {
 
         }
