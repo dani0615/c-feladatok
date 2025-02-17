@@ -146,7 +146,7 @@ namespace IrodalomProjekt {
             case 8:
             
             #line 32 "..\..\..\MainWindow.xaml"
-            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_1);
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Elozo_Click);
             
             #line default
             #line hidden
@@ -154,7 +154,7 @@ namespace IrodalomProjekt {
             case 9:
             
             #line 33 "..\..\..\MainWindow.xaml"
-            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_2);
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Mentes_Click);
             
             #line default
             #line hidden
@@ -162,7 +162,7 @@ namespace IrodalomProjekt {
             case 10:
             
             #line 34 "..\..\..\MainWindow.xaml"
-            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_3);
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Kovetkezo_click);
             
             #line default
             #line hidden

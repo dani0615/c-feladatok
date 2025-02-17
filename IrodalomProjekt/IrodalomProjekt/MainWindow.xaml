@@ -29,9 +29,9 @@
             <RadioButton GroupName="Valaszok" Name="ValaszB" Margin="3" Content="B)"/>
             <RadioButton GroupName="Valaszok" Name="ValaszC" Margin="3" Content="C)"/>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                <Button Content="Előző" Margin="5" Padding="5" Width="100" Click="Button_Click_1"/>
-                <Button Content="Válasz Mentése" Margin="5" Padding="5" Width="100" Click="Button_Click_2"/>
-                <Button Content="Következő" Margin="5" Padding="5" Width="100" Click="Button_Click_3"/>
+                <Button Content="Előző" Margin="5" Padding="5" Width="100" Click="Elozo_Click"/>
+                <Button Content="Válasz Mentése" Margin="5" Padding="5" Width="100" Click="Mentes_Click"/>
+                <Button Content="Következő" Margin="5" Padding="5" Width="100" Click="Kovetkezo_click"/>
             </StackPanel>
         </StackPanel>
 
