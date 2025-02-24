@@ -1,7 +1,0 @@
-﻿id;megnevezes;kategoria;ar
-0;Tépet kacsa burger;hamburger;4800
-1;Sajtos malac burger;hamburger;3900
-2;Pietro paradicsomlevese;leves;900
-3;BBQ oldalas;főétel;6800
-4;Spagetti a'la mamma;főétel;4500
-5;Dolce vita süti;desszert;750
