@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:IrodalomProjekt"
         mc:Ignorable="d"
         Title="Irodalom Projekt" Height="450" Width="800">
-    
+
     <Window.Resources>
         <Storyboard x:Key="FadeInStoryboard">
             <DoubleAnimation Storyboard.TargetName="tbkKerdesSzovege"
@@ -47,6 +47,7 @@
             </Style.Triggers>
         </Style>
     </Window.Resources>
+
 <!--Stílusok vége-->
     <Grid>
         <Grid.ColumnDefinitions>
@@ -79,9 +80,10 @@
                        Foreground ="#333333"
                        Name ="tbkKerdesSzovege"
                        Opacity ="0">
+
                 <TextBlock.Triggers>
                     <EventTrigger RoutedEvent ="Loaded">
-                        <BeginStoryboard Storyboard ="{StaticResource FadeInStoryboard}"/>
+                        <BeginStoryboard  Storyboard ="{StaticResource FadeInStoryboard}"/>
                     </EventTrigger>
                 </TextBlock.Triggers>
             </TextBlock>

@@ -100,6 +100,10 @@ namespace IrodalomProjekt
             ValaszB.IsChecked = false;
             ValaszC.IsChecked = false;
 
+            if (aktualisKerdes.FelhValasz == "A") ValaszA.IsChecked = true;
+            else if (aktualisKerdes.FelhValasz == "B") ValaszB.IsChecked = true;
+            else if (aktualisKerdes.FelhValasz == "C") ValaszC.IsChecked = true;
+
         }
        
 
@@ -141,7 +145,32 @@ namespace IrodalomProjekt
         
        private void Mentes_Click(object sender, RoutedEventArgs e)
        {
-            MessageBox.Show("// Nem elérhető funkció! //", "Figyelmeztetés", MessageBoxButton.OK, MessageBoxImage.Warning);
+
+            if(aktKerdesIndex < kerdesek.Count)
+            {
+                Kerdes aktualisKerdes = kerdesek[aktKerdesIndex];
+                if (ValaszA.IsChecked == true)
+                {
+                    aktualisKerdes.FelhValasz = "A";
+                }
+                else if (ValaszB.IsChecked == true)
+                {
+                    aktualisKerdes.FelhValasz = "B";
+                }
+                else if (ValaszC.IsChecked == true)
+                {
+                    aktualisKerdes.FelhValasz = "C";
+                }
+                
+
+            }
+            if (ValaszA.IsChecked != true && ValaszB.IsChecked != true && ValaszC.IsChecked != true)
+            {
+                MessageBox.Show("Kérlek, válassz egy választ!", "Figyelmeztetés", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+            MessageBox.Show("Sikeres mentés!", "informacio", MessageBoxButton.OK, MessageBoxImage.Information);
+            
         }
                
        private void Kiertekeles_click(object sender, RoutedEventArgs e)
