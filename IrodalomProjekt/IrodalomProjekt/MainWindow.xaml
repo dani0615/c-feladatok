@@ -1,0 +1,107 @@
+﻿<Window x:Class="IrodalomProjekt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IrodalomProjekt"
+        mc:Ignorable="d"
+        Title="Irodalom Projekt" Height="450" Width="800">
+
+    <Window.Resources>
+        <Storyboard x:Key="FadeInStoryboard">
+            <DoubleAnimation Storyboard.TargetName="tbkKerdesSzovege"
+                             Storyboard.TargetProperty="Opacity"
+                             From="0" To="1" Duration="0:0:0.5"/>
+        </Storyboard>
+
+        <Style TargetType="Button">
+            <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+            <Setter Property="RenderTransform">
+                <Setter.Value>
+                    <ScaleTransform ScaleX="1" ScaleY="1"/>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Trigger.EnterActions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.(ScaleTransform.ScaleX)"
+                                                 To="1.1" Duration="0:0:0.2"/>
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.(ScaleTransform.ScaleY)"
+                                                 To="1.1" Duration="0:0:0.2"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </Trigger.EnterActions>
+                    <Trigger.ExitActions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.(ScaleTransform.ScaleX)"
+                                                 To="1" Duration="0:0:0.2"/>
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.(ScaleTransform.ScaleY)"
+                                                 To="1" Duration="0:0:0.2"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </Trigger.ExitActions>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+<!--Stílusok vége-->
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+
+        <DockPanel Grid.Column="0" Grid.RowSpan="2" Background="LightGray">
+            <Button DockPanel.Dock="Top" Margin="5" Content="Betöltés" VerticalAlignment="Top" Click="Betoltes1_Click"/>
+            <Button DockPanel.Dock="Bottom" Content="Kilépés" VerticalAlignment="Top" Click="Kilepes_click"/>
+            <Button DockPanel.Dock="Top" Content="Kiértékelés" Margin="5" Click="Kiertekeles_click"/>
+            <TextBlock Text="Eredmény" Background="LightYellow" Name="tbkEredmeny"/>
+        </DockPanel>
+
+        <Border Grid.Column="1" Grid.Row="0"
+                Background="#F5F5F5"
+                CornerRadius="10"
+                BorderBrush="#D3D3D3"
+                BorderThickness="2"
+                Padding="10"
+                Margin="10">
+            <TextBlock TextAlignment ="Center"
+                       FontSize ="16"
+                       FontWeight ="Bold"
+                       Foreground ="#333333"
+                       Name ="tbkKerdesSzovege"
+                       Opacity ="0">
+
+                <TextBlock.Triggers>
+                    <EventTrigger RoutedEvent ="Loaded">
+                        <BeginStoryboard  Storyboard ="{StaticResource FadeInStoryboard}"/>
+                    </EventTrigger>
+                </TextBlock.Triggers>
+            </TextBlock>
+        </Border>
+
+        <StackPanel Grid.Column ="1" Grid.Row ="1" Margin ="30">
+            <RadioButton GroupName ="Valaszok" Name ="ValaszA" Margin ="3" Content ="A)"/>
+            <RadioButton GroupName ="Valaszok" Name ="ValaszB" Margin ="3" Content ="B)"/>
+            <RadioButton GroupName ="Valaszok" Name ="ValaszC" Margin ="3" Content ="C)"/>
+
+            
+            <StackPanel Orientation ="Horizontal" HorizontalAlignment ="Center">
+                <Button Content ="Előző" Width ="100" Click ="Elozo_Click"/>
+                <Button Content ="Válasz Mentése" Width ="100" Click ="Mentes_Click"/>
+                <Button Content ="Következő" Width ="100" Click ="Kovetkezo_click"/>
+            </StackPanel>
+
+        </StackPanel>
+
+    </Grid>
+</Window>

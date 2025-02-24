@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/c# feladatok/CopilotIndices/17.12.38.29086
+/EredmenyekWPF/.vs/EredmenyekWPF
+/.vs
+/Dolgozat0203/.vs
+/FileOpenSaveApplicationWPF/.vs/FileOpenSaveApplicationWPF
+/FileOpenSaveApplicationWPF/.vs/ProjectEvaluation
+/IrodalomProjekt/.vs
+bin/
+obj/
+.vs/

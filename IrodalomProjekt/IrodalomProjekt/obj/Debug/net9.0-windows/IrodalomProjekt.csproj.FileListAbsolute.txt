@@ -1,0 +1,42 @@
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\bin\Debug\net9.0-windows\IrodalomProjekt.exe
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\bin\Debug\net9.0-windows\IrodalomProjekt.deps.json
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\bin\Debug\net9.0-windows\IrodalomProjekt.runtimeconfig.json
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\bin\Debug\net9.0-windows\IrodalomProjekt.dll
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\bin\Debug\net9.0-windows\IrodalomProjekt.pdb
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt_MarkupCompile.cache
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt_MarkupCompile.lref
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt.g.resources
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt.AssemblyInfoInputs.cache
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt.AssemblyInfo.cs
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt.csproj.CoreCompileInputs.cache
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt.sourcelink.json
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt.dll
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\refint\IrodalomProjekt.dll
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt.pdb
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt.genruntimeconfig.cache
+C:\Users\haluskad\Documents\Asztali p\c# feladatok\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\ref\IrodalomProjekt.dll
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\bin\Debug\net9.0-windows\IrodalomProjekt.exe
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\bin\Debug\net9.0-windows\IrodalomProjekt.deps.json
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\bin\Debug\net9.0-windows\IrodalomProjekt.runtimeconfig.json
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\bin\Debug\net9.0-windows\IrodalomProjekt.dll
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\bin\Debug\net9.0-windows\IrodalomProjekt.pdb
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt_MarkupCompile.cache
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt_MarkupCompile.lref
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt.g.resources
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt.AssemblyInfoInputs.cache
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt.AssemblyInfo.cs
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt.csproj.CoreCompileInputs.cache
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt.sourcelink.json
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt.dll
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\refint\IrodalomProjekt.dll
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt.pdb
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\IrodalomProjekt.genruntimeconfig.cache
+C:\Users\times\Documents\kod\C#_iskolai_Sync\IrodalomProjekt\IrodalomProjekt\obj\Debug\net9.0-windows\ref\IrodalomProjekt.dll

@@ -1,0 +1,19 @@
+﻿Id;Marka;Tipus;Szin;Evjarat;Muszaki;Aktiv
+1;Opel;Astra;kek;2000;2025.06.30;True
+2;Ford;Focus;piros;2005;2025.08.30;True
+3;Suzuki;Swift;feher;2010;2025.10.30;True
+4;Volkswagen;Passat;fekete;2015;2026.01.30;True
+5;Toyota;Corolla;zold;2020;2026.03.30;True
+6;Skoda;Octavia;szurke;2020;2026.05.30;True
+7;BMW;320;kek;2020;2026.07.30;True
+8;Audi;A4;piros;2020;2026.09.30;True
+9;Mercedes;C180;feher;2020;2026.11.30;True
+10;Fiat;Tipo;fekete;2020;2027.01.30;True
+11;Dacia;Duster;zold;2020;2027.03.30;True
+12;Renault;Megane;szurke;2020;2027.05.30;True
+13;Citroen;C4;kek;2020;2027.07.30;True
+14;Peugeot;308;piros;2020;2027.09.30;True
+15;Seat;Leon;feher;2020;2027.11.30;True
+16;Alfa Romeo;Giulia;fekete;2020;2028.01.30;True
+17;Lancia;Delta;zold;2020;2028.03.30;True
+18;Volvo;S60;szurke;2020;2028.05.30;True
