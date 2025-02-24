@@ -9,3 +9,6 @@
 /FileOpenSaveApplicationWPF/.vs/FileOpenSaveApplicationWPF
 /FileOpenSaveApplicationWPF/.vs/ProjectEvaluation
 /IrodalomProjekt/.vs
+bin/
+obj/
+.vs/
