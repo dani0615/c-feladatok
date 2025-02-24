@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\haluskad\\Documents\\Asztali p\\c# feladatok\\Dolgozat0224\\Dolgozat0224\\Dolgozat0224.csproj": {}
+    "C:\\Users\\times\\Documents\\kod\\C#_iskolai_Sync\\Dolgozat0224\\Dolgozat0224\\Dolgozat0224.csproj": {}
   },
   "projects": {
-    "C:\\Users\\haluskad\\Documents\\Asztali p\\c# feladatok\\Dolgozat0224\\Dolgozat0224\\Dolgozat0224.csproj": {
+    "C:\\Users\\times\\Documents\\kod\\C#_iskolai_Sync\\Dolgozat0224\\Dolgozat0224\\Dolgozat0224.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\haluskad\\Documents\\Asztali p\\c# feladatok\\Dolgozat0224\\Dolgozat0224\\Dolgozat0224.csproj",
+        "projectUniqueName": "C:\\Users\\times\\Documents\\kod\\C#_iskolai_Sync\\Dolgozat0224\\Dolgozat0224\\Dolgozat0224.csproj",
         "projectName": "Dolgozat0224",
-        "projectPath": "C:\\Users\\haluskad\\Documents\\Asztali p\\c# feladatok\\Dolgozat0224\\Dolgozat0224\\Dolgozat0224.csproj",
-        "packagesPath": "C:\\Users\\haluskad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\haluskad\\Documents\\Asztali p\\c# feladatok\\Dolgozat0224\\Dolgozat0224\\obj\\",
+        "projectPath": "C:\\Users\\times\\Documents\\kod\\C#_iskolai_Sync\\Dolgozat0224\\Dolgozat0224\\Dolgozat0224.csproj",
+        "packagesPath": "C:\\Users\\times\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\times\\Documents\\kod\\C#_iskolai_Sync\\Dolgozat0224\\Dolgozat0224\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "E:\\VS2\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\haluskad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\times\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

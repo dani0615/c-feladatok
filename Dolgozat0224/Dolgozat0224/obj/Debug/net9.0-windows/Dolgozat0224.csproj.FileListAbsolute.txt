@@ -19,3 +19,24 @@ C:\Users\haluskad\Documents\Asztali p\c# feladatok\Dolgozat0224\Dolgozat0224\obj
 C:\Users\haluskad\Documents\Asztali p\c# feladatok\Dolgozat0224\Dolgozat0224\obj\Debug\net9.0-windows\Dolgozat0224.pdb
 C:\Users\haluskad\Documents\Asztali p\c# feladatok\Dolgozat0224\Dolgozat0224\obj\Debug\net9.0-windows\Dolgozat0224.genruntimeconfig.cache
 C:\Users\haluskad\Documents\Asztali p\c# feladatok\Dolgozat0224\Dolgozat0224\obj\Debug\net9.0-windows\ref\Dolgozat0224.dll
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\bin\Debug\net9.0-windows\Dolgozat0224.exe
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\bin\Debug\net9.0-windows\Dolgozat0224.deps.json
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\bin\Debug\net9.0-windows\Dolgozat0224.runtimeconfig.json
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\bin\Debug\net9.0-windows\Dolgozat0224.dll
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\bin\Debug\net9.0-windows\Dolgozat0224.pdb
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\obj\Debug\net9.0-windows\Dolgozat0224_MarkupCompile.cache
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\obj\Debug\net9.0-windows\Dolgozat0224_MarkupCompile.lref
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\obj\Debug\net9.0-windows\Dolgozat0224.g.resources
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\obj\Debug\net9.0-windows\Dolgozat0224.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\obj\Debug\net9.0-windows\Dolgozat0224.AssemblyInfoInputs.cache
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\obj\Debug\net9.0-windows\Dolgozat0224.AssemblyInfo.cs
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\obj\Debug\net9.0-windows\Dolgozat0224.csproj.CoreCompileInputs.cache
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\obj\Debug\net9.0-windows\Dolgozat0224.sourcelink.json
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\obj\Debug\net9.0-windows\Dolgozat0224.dll
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\obj\Debug\net9.0-windows\refint\Dolgozat0224.dll
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\obj\Debug\net9.0-windows\Dolgozat0224.pdb
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\obj\Debug\net9.0-windows\Dolgozat0224.genruntimeconfig.cache
+C:\Users\times\Documents\kod\C#_iskolai_Sync\Dolgozat0224\Dolgozat0224\obj\Debug\net9.0-windows\ref\Dolgozat0224.dll

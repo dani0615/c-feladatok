@@ -28,20 +28,23 @@ namespace Dolgozat0224
 
         private void Megjelenit_click(object sender, RoutedEventArgs e)
         {
-            int sorokSzama = TxtSorok.Count;
-            
-            tbxSzam.Text = sorokSzama.ToString();
+          
             int betoltendo = int.Parse(tbxSzam.Text);
 
-            tbkSorok.Text = TxtSorok[betoltendo];
+            
+            if (betoltendo > TxtSorok.Count)
+            {
+                betoltendo = TxtSorok.Count;
+                MessageBox.Show("Nagyobb szám mint a sorok száma , összes sor betöltve", "Információ", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
 
-
-
-
-
-
-
-
+            
+            string megjelenitettSzoveg = "";
+            for (int i = 0; i < betoltendo; i++)
+            {
+                megjelenitettSzoveg += TxtSorok[i] + "\n";
+            }
+            tbkSorok.Text = megjelenitettSzoveg;
 
         }
 
