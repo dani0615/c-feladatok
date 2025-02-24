@@ -175,7 +175,18 @@ namespace IrodalomProjekt
                
        private void Kiertekeles_click(object sender, RoutedEventArgs e)
        {
-            MessageBox.Show("// Nem elérhető funkció! //", "Figyelmeztetés", MessageBoxButton.OK, MessageBoxImage.Warning);
+            tbkEredmeny.Text = "";
+            int helyesValaszokSzama = 0;
+            foreach (var kerdes in kerdesek)
+            {
+                if (kerdes.ValaszEllenorzes())
+                {
+                    helyesValaszokSzama++;
+                }
+            }
+            tbkEredmeny.Text = $"Helyes válaszok száma: {helyesValaszokSzama} / {kerdesek.Count}";
+            MessageBox.Show($"Helyes válaszok száma: {helyesValaszokSzama} / {kerdesek.Count}", "Eredmény", MessageBoxButton.OK, MessageBoxImage.Information);
+
 
         }
 
