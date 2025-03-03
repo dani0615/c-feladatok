@@ -36,12 +36,43 @@ namespace AmobaWPFAlap
                     jatekter[i, j] = " ";
                 }
             }
+          
+            JatekterKiir();
 
         }
 
         private void JatekterKiir()
         {
+            int meret = 20;
+            if(jatekter == null) 
+            {
+                MessageBox.Show("Nincs feltöltve a játéktér!");
+            }
+            else
+            {
+                gridJatekter.Children.Clear();
+            }
+            // a gridJatekter racshoz gombokat adunk
+            for (int i = 0; i < jatekter.GetLength(0); i++)
+            {
 
+                for (int j = 0; j < jatekter.GetLength(1); j++)
+                {
+                    Button button = new Button()
+                    {
+                        Name = $"btn_{i}_{j}",
+                        Content = jatekter[i, j],
+                        Width = meret,
+                        Height = meret,
+                        Margin = new Thickness(j*meret,i*meret,0,0),
+                        HorizontalAlignment = HorizontalAlignment.Left,
+                        VerticalAlignment = VerticalAlignment.Top,
+                    };
+                    gridJatekter.Children.Add(button);
+                }
+               
+            }
+           
         }
 
         private void Lepes(object sender, RoutedEventArgs e)
