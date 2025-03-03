@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EredmenyekWPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ba55caf30ec2aafe56c8f31af8260d0c9d1eece")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e53667fa06adff3427906a9ce65eac80ef9113ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("EredmenyekWPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EredmenyekWPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
