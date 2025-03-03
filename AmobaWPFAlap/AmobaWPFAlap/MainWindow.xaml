@@ -14,9 +14,9 @@
         <Menu>
             <MenuItem Header="Játék">
                 <MenuItem Header="Új" Click="UjJatek"/>
-                <MenuItem Header="Megnyitás"/>
-                <MenuItem Header="Mentés"/>
-                <MenuItem Header="Kilépés"/>
+                <MenuItem Header="Megnyitás" Click="Megnyitas_click" />
+                <MenuItem Header="Mentés" Click="Mentes_Click" />
+                <MenuItem Header="Kilépés" Click="Kilepes_Click" />
             </MenuItem>
             <MenuItem Header="Beállítások">
                 <MenuItem Header="Sorok száma:"/>
