@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.IO;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -103,10 +104,34 @@ namespace AmobaWPFAlap
 
         private void Mentes_Click(object sender, RoutedEventArgs e)
         {
-            OpenFileDialog saveFileDialog = new OpenFileDialog();
+            if (jatekter == null)
+            {
+                MessageBox.Show("Nincs feltöltve a játéktér!");
+                return;
+            }
+
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
             saveFileDialog.Filter = "Szöveges fájl|*.txt";
+            if (saveFileDialog.ShowDialog() == true)
+            {
+                using (StreamWriter mentes = new StreamWriter(saveFileDialog.FileName))
+                {
+                    mentes.WriteLine(jatekter.GetLength(0));
+                    mentes.WriteLine(jatekter.GetLength(1));
+                    mentes.WriteLine(jatekos);
+                    for (int i = 0; i < jatekter.GetLength(0); i++)
+                    {
+                        for (int j = 0; j < jatekter.GetLength(1); j++)
+                        {
+                            mentes.Write(jatekter[i, j]);
+                        }
+                        mentes.WriteLine();
+                    }
+                    MessageBox.Show("A játék mentése sikeres volt!");
+                }
 
 
+            }
         }
 
         private void Kilepes_Click(object sender, RoutedEventArgs e)
