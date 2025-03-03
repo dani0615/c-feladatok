@@ -148,9 +148,25 @@ namespace AmobaWPFAlap
             openFileDialog.Filter = "Szöveges fájl|*.txt";
             if (openFileDialog.ShowDialog() == true)
             {
-                
-                JatekterKiir();
+                string[] sorok = File.ReadAllLines(openFileDialog.FileName);
+
+                int sorSzam = int.Parse(sorok[0]);
+                int oszlopSzam = int.Parse(sorok[1]);
+                jatekos = sorok[2];
+
+                jatekter = new string[sorSzam, oszlopSzam];
+
+                for(int i = 0; i < sorSzam; i++)
+                {
+                    string jateksor=sorok[i + 3];
+                    for (int j = 0; j < oszlopSzam; j++)
+                    {
+                        jatekter[i, j] = jateksor[j].ToString();
+                    }
+                }
             }
+            JatekterKiir();
+            MessageBox.Show("A játék betöltése sikeres volt!");
 
         }
 
