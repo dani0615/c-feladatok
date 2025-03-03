@@ -170,7 +170,7 @@ namespace AmobaWPFAlap
 
         }
 
-        //HF: győzelem ellenőrzése , mentés (szöveges állományba  játéktér , következő játékos , játék állása , ) , korábbi játék betöltése a szöveges állományból (OpenFileDialog)
-        //hf : mezők ellenőrzése van-e már X vagy O a mezőben ne lehessen felülírni
+
+        //hf: nyerési feltételek vizsgálata
     }
 }
