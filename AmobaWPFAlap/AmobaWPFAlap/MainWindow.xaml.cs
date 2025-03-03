@@ -21,6 +21,7 @@ namespace AmobaWPFAlap
         public MainWindow()
         {
             InitializeComponent();
+            
         }
 
         private void UjJatek(object sender, RoutedEventArgs e)
@@ -68,6 +69,7 @@ namespace AmobaWPFAlap
                         HorizontalAlignment = HorizontalAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Top,
                     };
+                    button.Click += Lepes;
                     gridJatekter.Children.Add(button);
                 }
                
@@ -77,7 +79,18 @@ namespace AmobaWPFAlap
 
         private void Lepes(object sender, RoutedEventArgs e)
         {
-
+            int SorSzam = int.Parse((sender as Button).Name.Split("_")[1]);
+            int OszlopSzam = int.Parse((sender as Button).Name.Split("_")[2]);
+            jatekter[SorSzam, OszlopSzam] = jatekos;
+            JatekterKiir();
+            if (jatekos == "X")
+            {
+                jatekos = "O";
+            }
+            else
+            {
+                jatekos = "X";
+            }
         }
     }
 }
