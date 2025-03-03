@@ -21,7 +21,7 @@ namespace AmobaWPFAlap
         public MainWindow()
         {
             InitializeComponent();
-            
+
         }
 
         private void UjJatek(object sender, RoutedEventArgs e)
@@ -29,15 +29,15 @@ namespace AmobaWPFAlap
             int sorSzam = int.Parse(tbxSor.Text);
             int oszlopSzam = int.Parse(tbxOszlop.Text);
             jatekter = new string[sorSzam, oszlopSzam];
-            for (int i = 0; i < jatekter.GetLength(0); i++) 
+            for (int i = 0; i < jatekter.GetLength(0); i++)
             {
-                
+
                 for (int j = 0; j < jatekter.GetLength(1); j++)
                 {
                     jatekter[i, j] = " ";
                 }
             }
-          
+
             JatekterKiir();
 
         }
@@ -45,7 +45,7 @@ namespace AmobaWPFAlap
         private void JatekterKiir()
         {
             int meret = 20;
-            if(jatekter == null) 
+            if (jatekter == null)
             {
                 MessageBox.Show("Nincs feltöltve a játéktér!");
             }
@@ -65,16 +65,16 @@ namespace AmobaWPFAlap
                         Content = jatekter[i, j],
                         Width = meret,
                         Height = meret,
-                        Margin = new Thickness(j*meret,i*meret,0,0),
+                        Margin = new Thickness(j * meret, i * meret, 0, 0),
                         HorizontalAlignment = HorizontalAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Top,
                     };
                     button.Click += Lepes;
                     gridJatekter.Children.Add(button);
                 }
-               
+
             }
-           
+
         }
 
         private void Lepes(object sender, RoutedEventArgs e)
@@ -92,5 +92,7 @@ namespace AmobaWPFAlap
                 jatekos = "X";
             }
         }
+
+        //hf: commitban
     }
 }
