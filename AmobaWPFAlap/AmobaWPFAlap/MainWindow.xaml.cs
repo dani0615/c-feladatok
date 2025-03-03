@@ -25,6 +25,17 @@ namespace AmobaWPFAlap
 
         private void UjJatek(object sender, RoutedEventArgs e)
         {
+            int sorSzam = int.Parse(tbxSor.Text);
+            int oszlopSzam = int.Parse(tbxOszlop.Text);
+            jatekter = new string[sorSzam, oszlopSzam];
+            for (int i = 0; i < jatekter.GetLength(0); i++) 
+            {
+                
+                for (int j = 0; j < jatekter.GetLength(1); j++)
+                {
+                    jatekter[i, j] = " ";
+                }
+            }
 
         }
 
