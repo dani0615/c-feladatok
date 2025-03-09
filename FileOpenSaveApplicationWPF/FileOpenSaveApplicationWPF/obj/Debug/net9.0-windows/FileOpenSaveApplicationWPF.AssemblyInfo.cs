@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FileOpenSaveApplicationWPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b5ffcc4e2d2e3a8391a545e14f736854f6b369f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e53667fa06adff3427906a9ce65eac80ef9113ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("FileOpenSaveApplicationWPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FileOpenSaveApplicationWPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
