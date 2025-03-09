@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dolgozat0224")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8baab666d1122d7f584fd473cf49e5711eb3d0d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e53667fa06adff3427906a9ce65eac80ef9113ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dolgozat0224")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dolgozat0224")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -28,5 +28,30 @@ A: Ady Endre
 B: Babits Mihály
 C: Kosztolányi Dezső
 Helyes válasz: A
+Melyik versében szerepel a „Tedd a kezed” kifejezés?
+A: Tiszta szívvel
+B: Óda
+C: Eszmélet
+Helyes válasz: B
+Milyen végzettséget szerzett József Attila?
+A: Jogász
+B: Tanár
+C: Nem szerzett diplomát
+Helyes válasz: C
+Melyik műve tartalmazza az „Isten itt állt a hátam mögött” sort?
+A: Ars poetica
+B: Eszmélet
+C: Nem én kiáltok
+Helyes válasz: B
+Ki segítette anyagilag pályája elején?
+A: Babits Mihály
+B: Illyés Gyula
+C: Kosztolányi Dezső
+Helyes válasz: C
+Milyen tragikus módon hunyt el?
+A: Öngyilkosságot követett el
+B: Autóbalesetben halt meg
+C: Betegségben hunyt el
+Helyes válasz: A
 
 
