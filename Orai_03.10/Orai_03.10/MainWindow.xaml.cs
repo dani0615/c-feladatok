@@ -73,5 +73,10 @@ namespace Orai_03._10
             
             }
         }
+
+        private void btnCheckAdd_Click(object sender , RoutedEventArgs e)
+        {
+            //HF Classroom
+        }
     }
 }
