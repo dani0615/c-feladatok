@@ -1,0 +1,5 @@
+A feliratkozás technikája , Esemény += Indítandó függvény-neve
+
+
+Az eseménykezelő sender paramétere , az eseményt kiváltó objektumot jelenti , 
+pl : Egy click esemény eseménykezelőjében , azt az objektumot jelenti amire rá clickeltünk .
