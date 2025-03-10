@@ -23,7 +23,7 @@ namespace SzamozottGombok
 
         private void btnEllenoriz_Click(object sender, RoutedEventArgs e)
         {
-            bool fut;
+            bool fut=true;
             int szam;
             bool eredmeny = int.TryParse(tbxSzam.Text, out szam);
             if (szam<1 || szam >10)
@@ -36,10 +36,9 @@ namespace SzamozottGombok
                 MessageBox.Show("Nem megfelelő számformátum!");
                 fut = false;
             }
-           
 
-            
-            
+            if (fut)
+            {
                 for (int i = 0; i < szam; i++)
                 {
                     Button button = new Button()
@@ -47,14 +46,18 @@ namespace SzamozottGombok
                         Content = i + 1,
                         Width = 50,
                         Height = 30,
-                        Margin = new Thickness(5, 20, 5, 20),
+                        Margin = new Thickness(5, i * 30, 5, 5),
                         HorizontalAlignment = HorizontalAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Top,
-                        
-                        
+
+
                     };
                     gombok.Children.Add(button);
                 }
+            }
+
+
+               
             }
            
             
