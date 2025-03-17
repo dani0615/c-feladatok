@@ -71,6 +71,7 @@ namespace SzambevitelWPF
                 (sender as TextBox).Text = "0";
 
             }
+            //Szorgalmi , ne 0 legyen alapértelmezett érték , az utolsó beirt karaktert törölje ki.
         }
         private void Kilepes_click(object sender, RoutedEventArgs e)
         {
