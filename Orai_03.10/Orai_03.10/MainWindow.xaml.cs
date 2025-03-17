@@ -66,12 +66,18 @@ namespace Orai_03._10
 
         private void tbxSzamBevitel_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if (!int.TryParse((sender as TextBox).Text, out int eredmeny))
+            if (!int.TryParse(tbxSzamok2.Text, out int eredmeny))
             {
                 MessageBox.Show("Nem megfelelő számformátum.");
-                (sender as TextBox).Text = "0";
-            
+                tbxSzamok2.Text = "0";
+
             }
+            //if (!int.TryParse((sender as TextBox).Text, out int eredmeny))
+            //{
+            //    MessageBox.Show("Nem megfelelő számformátum.");
+            //    (sender as TextBox).Text = "0";
+
+            //}
         }
 
         private void btnCheckAdd_Click(object sender , RoutedEventArgs e)
