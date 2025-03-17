@@ -1,0 +1,10 @@
+﻿Név;Faj;Fajta;Nem;Szín;SzületésiDátum;Súly;KedvencÉtel;KedvencJáték
+Bodri;Kutya;Németjuhász;Kan;Fekete;2015.01.01;25;Hús;Labda
+Cirmi;Macska;Perzsa;Nőstény;Fehér;2016.02.02;5;Hal;Toll
+Csőrike;Macska;Sziámi;Nőstény;Fekete;2017.03.03;4;Hal;Labda
+Dagadó;Kutya;Tacskó;Kan;Fekete;2018.04.04;10;Hús;Labda
+Döme;Kutya;Tacskó;Kan;Fekete;2019.05.05;10;Hús;Labda
+Foltos;Kutya;Tacskó;Kan;Fekete;2020.06.06;10;Hús;Labda
+Gombóc;Macska;Perzsa;Nőstény;Fehér;2021.07.07;5;Hal;Toll
+Hugó;Kutya;Tacskó;Kan;Fekete;2022.08.08;10;Hús;Labda
+Kormi;Macska;Perzsa;Nőstény;Fehér;2023.09.09;5;Hal;Toll
