@@ -10,9 +10,15 @@
     <Compile Update="FelvetelWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="KijelentkezesWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="FelvetelWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="KijelentkezesWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">

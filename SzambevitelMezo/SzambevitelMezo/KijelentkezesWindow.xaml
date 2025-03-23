@@ -1,0 +1,17 @@
+﻿<Window x:Class="SzambevitelMezo.KijelentkezesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Állat Kijelentkezése" Height="200" Width="300">
+    <StackPanel Margin="10">
+        <Label Content="Név"/>
+        <TextBox x:Name="tbxNev"/>
+        <Label Content="Faj"/>
+        <TextBox x:Name="tbxFaj"/>
+        <Label Content="Fajta"/>
+        <TextBox x:Name="tbxFajta"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+            <Button x:Name="btnKijelentkezes" Content="Kijelentkezés" Click="btnKijelentkezes_Click" Margin="0,0,10,0"/>
+            <Button x:Name="btnMegse" Content="Mégsem" Click="btnMegse_Click"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

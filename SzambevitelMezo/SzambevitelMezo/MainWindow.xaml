@@ -15,7 +15,7 @@
             <MenuItem Header="Vendégek">
                 <MenuItem Header="Felvétel" Click="Felvetel_click" />
                 <Separator/>
-                <MenuItem Header="Kijelentkezés"/>
+                <MenuItem Header="Kijelentkezés" Click="Kijelentkezes_click" />
             </MenuItem>
             
         </Menu>

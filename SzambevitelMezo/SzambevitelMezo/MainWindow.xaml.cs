@@ -40,5 +40,12 @@ namespace SzambevitelMezo
             felvetelWindow.ShowDialog();
 
         }
+
+        private void Kijelentkezes_click(object sender, RoutedEventArgs e)
+        {
+            KijelentkezesWindow kijelentkezesWindow = new KijelentkezesWindow();
+            kijelentkezesWindow.ShowDialog();
+
+        }
     }
 }

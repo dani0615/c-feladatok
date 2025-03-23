@@ -32,11 +32,24 @@ namespace SzambevitelMezo
 
         private void btnFelvetel_Click(object sender, RoutedEventArgs e)
         {
+            if (tbxNev.Text == "" || tbxFaj.Text == "" || tbxFajta.Text == "" || tbxNem.Text == "" ||
+        tbxSzin.Text == "" || dpSzuletesiDatum.SelectedDate == null || tbxSuly.Text == "")
+            {
+                MessageBox.Show("Minden csillaggal jelölt mező kitöltése kötelező!");
+                return;
+            }
+
+            int suly;
+            if (!int.TryParse(tbxSuly.Text, out suly))
+            {
+                MessageBox.Show("A Súly csak szám lehet!");
+                return;
+            }
             // A kötelező mezők ellenőrzése HF
             //Ha kitöltöttek , akkor példányosítani kell egy Pet objektumot és hozzáadni a Pets listához , a főablakban
             Pet ujkedvenc = new Pet(tbxNev.Text,tbxFaj.Text,tbxFajta.Text,tbxNem.Text,tbxSzin.Text,DateTime.Parse(dpSzuletesiDatum.Text),int.Parse(tbxSuly.Text),tbxKedvencEtel.Text,tbxKedvencJatek.Text);
             MainWindow.Pets.Add(ujkedvenc);
-            MessageBox.Show("sikeres felvétel.")
+            MessageBox.Show("sikeres felvétel.");
             
         }
     }
