@@ -1,0 +1,6 @@
+Egy solutionba több projekt is lehet , projekt referencia beallitassal az egyik projektben létrehozott publikus erőforrások a másikban is elerhetok Pl.: publikus osztaly , metodus , adattagok 
+
+Az adatrács(datagrid) a legegyszerűbb esetben egyetlen lista adatait képes automatikusan megjeleniteni , Fontos csak publikus property-ből készit oszlopot
+
+Dolgozat LINQ lista kezeles , 
+wpfben megjeleniteni masik feltoltott listat

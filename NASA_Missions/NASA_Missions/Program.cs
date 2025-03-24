@@ -1,9 +1,9 @@
 ﻿using System.IO;
 namespace NASA_Missions
 {
-    internal class Program
+    public class Program
     {
-       private static List<Kuldetes> kuldetesek = new List<Kuldetes>();
+       public static List<Kuldetes> kuldetesek = new List<Kuldetes>();
         static void Main(string[] args)
         {
             Console.WriteLine("Szeva, World!");
@@ -39,7 +39,7 @@ namespace NASA_Missions
 
         }
 
-        static void LoadFromFile(string Filename) 
+       public static void LoadFromFile(string Filename) 
         {
             string[] sorok = File.ReadAllLines(Filename).Skip(1).ToArray();
             foreach (var sor in sorok)

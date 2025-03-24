@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NASA_Missions
 {
-    internal class Kuldetes
+    public class Kuldetes
     {
         public string Nev { get; private set; }
         public int Ev { get; private set; }

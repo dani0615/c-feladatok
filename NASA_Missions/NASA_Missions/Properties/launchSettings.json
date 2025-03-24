@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "NASA_Missions": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
