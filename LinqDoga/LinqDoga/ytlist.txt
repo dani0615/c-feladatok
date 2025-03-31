@@ -1,0 +1,51 @@
+Helyezes;Idotartam;Eloado;Cim;Kiado;Megtekintes
+1;3:21;JoJo Siwa;Karma;JoJo Siwa;52000000
+2;2:35;Tate McRae;greedy;Tate McRae;198000000
+3;3:03;Disturbed;The Sound Of Silence (CYRIL Remix);Chill City;23000000
+4;2:36;Artemas;i like the way you kiss me;Artemas;161000000
+5;3:48;Purple Disco Machine, ÁSDÍS;Beat Of Your Heart;Purple Disco Machine;17000000
+6;3:07;Dua Lipa;Illusion;Dua Lipa;68000000
+7;3:09;Kygo, Ava Max;Whatever;Kygo;52000000
+8;2:35;David Guetta & OneRepublic;I Don't Wanna Wait;David Guetta;87000000
+9;3:05;Edward Maya feat. Vika Jigulina;Stereo Love;Cat Music;1900000
+10;3:34;CYRIL;Stumblin' In;CYRIL;43000000
+11;2:45;Peggy Gou;(It Goes Like) Nanana;Peggy Gou;65000000
+12;3:53;Crazy Loop;Love Maria;Crazy Loop;17000000
+13;4:56;Doja Cat;Paint The Town Red;Doja Cat;328000000
+14;2:46;Harry Styles;As It Was;Harry Styles;817000000
+15;3:13;Benson Boone;Beautiful Things;Benson Boone;585000000
+16;2:31;EDEN GOLAN;Taxi;Cat Music;2100000
+17;3:03;Ray Dalton;Do It Again;Ray Dalton;27000000
+18;2:38;The Kid LAROI, Justin Bieber;STAY;The Kid LAROI.;998000000
+19;3:58;Beyoncé;TEXAS HOLD 'EM;Beyoncé;64000000
+20;3:03;Pharrell Williams, Miley Cyrus;Doctor (Work It Out);Miley Cyrus;26000000
+21;2:54;Kenya Grace;Strangers;Kenya Grace;101000000
+22;3:22;Miley Cyrus;Flowers;Miley Cyrus;1
+23;3:40;Tyla;Water;Tyla;302000000
+24;4:55;Ray Dalton;ALL WE GOT;Ray Dalton;3500000
+25;3:36;Aden Foyer;The Ballet Girl;Aden Foyer;11000000
+26;3:24;Switch Disco ft Ella Henderson and Robert Miles;REACT;SwitchDisco;8600000
+27;3:56;Dermot Kennedy;Kiss Me;Dermot Kennedy;56000000
+28;3:02;Purple Disco Machine, Kungs;Substitution ft. Julian Perretta;Purple Disco Machine;82000000
+29;2:50;Calvin Harris, Rag'n'Bone Man;Lovers In A Past Life;Calvin Harris;7100000
+30;2:34;Tiësto;Lay Low;Tiësto;66000000
+31;3:20;Sophie and the Giants x Purple Disco Machine;Paradise;Sophie and the Giants;11000000
+32;3:46;Zara Larsson;Can't Tame Her;Zara Larsson;21000000
+33;2:21;R3HAB, INNA, Sash!;Rock My Body;Spinnin' Records;46000000
+34;2:38;Robin Schulz;Sweet Goodbye;Robin Schulz;6800000
+35;2:28;FAST BOY & Topic;Forget You;FAST BOY;19000000
+36;3:04;Loreen;Tattoo;Loreen;79000000
+37;2:46;Kylie Minogue;Padam Padam;Kylie Minogue;37000000
+38;2:25;KAMRAD;You Feel Like Summer;KAMRAD;319000
+39;3:22;OneRepublic;West Coast;OneRepublic;18000000
+40;3:56;Glass Animals;Heat Waves;Glass Animals;776000000
+41;3:20;VALMAR ft. Szikora Robi;Úristen;VALMAR;49000000
+42;3:27;Camila Cabello;Bam Bam ft. Ed Sheeran;Camila Cabello;5200000
+43;3:54;Joji;Glimpse of Us;88rising;160000000
+44;2:56;MAX;WASABI;MAX;1200000
+45;3:25;Charlie Puth;Light Switch;Charlie Puth;183000000
+46;4:05;ILLENIUM & Teddy Swims;All That Really Matters;ILLENIUM;8800000
+47;2:33;MEDUZA, James Carter;Bad Memories ft. Elley Duhé, FAST BOY;Meduza;65000000
+48;3:36;Tyga, Doja Cat;Freaky Deaky;Tyga;96000000
+49;3:16;Jackson Wang;Cruel;Jackson Wang;25000000
+50;2:41;Tiësto & Charli XCX;Hot In It;Tiësto;9900000
