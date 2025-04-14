@@ -1,0 +1,9 @@
+﻿osztály;típus;ország;ágyúkSzáma;kaliber;vízkiszorítás
+Bismark;bb;Németország;8;15;42000
+Iowa;bb;USA;9;16;46000
+Kongo;bc;Japán;8;14;32000
+North Carolina;bb;USA;9;16;37000
+Renown;bc;Nagy Britannia;6;15;32000
+Revenge;bb;Nagy Britannia;8;15;29000
+Tennessee;bb;USA;12;14;32000
+Yamato;bb;Japán;9;18;65000 
