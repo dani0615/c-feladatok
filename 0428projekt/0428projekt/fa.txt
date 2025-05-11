@@ -1,0 +1,6 @@
+﻿fajta;ar;onbeporzo;keszlet
+Szomolyai Cseresznye;7200;0;23
+Gönci Barack;8500;1;11
+Pándi Meggy;9100;0;29
+Jonatán Alma;8000;1;21
+Idared Alma;9000;1;37
