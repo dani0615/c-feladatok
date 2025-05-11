@@ -18,7 +18,7 @@ namespace _0428projekt
 
         }
 
-        static string LoadFromFile(string FileName)
+      public static string LoadFromFile(string FileName)
         {
             try
             {
