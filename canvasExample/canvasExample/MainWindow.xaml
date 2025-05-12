@@ -1,0 +1,43 @@
+﻿<Window x:Class="canvasExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:canvasExample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Margin="10">
+            <ComboBox x:Name="cmbShapeType" SelectedIndex="0">
+                <ComboBoxItem Content="Ellipse"/>
+                <ComboBoxItem Content="Rectangle"/>
+            </ComboBox>
+            <CheckBox x:Name="chkShadow" Content="Add Shadow" Margin="0,5"/>
+            <Label Content="Number of shapes:"/>
+            <TextBox x:Name="txtNumberOfShapes" Text="1" Margin="0,0,0,5"/>
+            <Label Content="Shape size:"/>
+            <TextBox x:Name="txtShapeSize" Text="10" Margin="0,0,0,5"/>
+            <ComboBox x:Name="cmbFillColor" SelectedIndex="0">
+                <ComboBoxItem Content="Black"/>
+                <ComboBoxItem Content="Red"/>
+                <ComboBoxItem Content="Green"/>
+                <ComboBoxItem Content="Blue"/>
+            </ComboBox>
+            <ComboBox x:Name="cmbStrokeColor" SelectedIndex="0" Margin="0,5">
+                <ComboBoxItem Content="Aquamarine"/>
+                <ComboBoxItem Content="Black"/>
+                <ComboBoxItem Content="Red"/>
+                <ComboBoxItem Content="Green"/>
+                <ComboBoxItem Content="Blue"/>
+            </ComboBox>
+            <Button x:Name="btnAdd" Click="btnAdd_Click" Content="Add" Margin="0,5"/>
+            <Button x:Name="btnClear" Click="btnClear_Click" Content="Clear" Margin="0,5"/>
+            <Button x:Name="btnFullScreen" Click="btnFullScreen_Click" Content="Full Screen" Margin="0,5"/>
+        </StackPanel>
+        <Canvas x:Name="canvasRajzlap" Grid.Column="1" Background="White"/>
+    </Grid>
+</Window>
